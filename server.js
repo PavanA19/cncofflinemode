@@ -508,7 +508,7 @@ app.get('/machine-details', (req, res) => {
 
 // Prevent Render from sleeping
 setInterval(() => {
-  fetch('https://indxoapp.onrender.com/')
+  fetch('https://cncofflinemode.onrender.com/')
     .then(() => console.log('Self-ping sent to prevent Render sleep'))
     .catch((err) => console.error('Self-ping failed:', err.message));
 }, 14 * 60 * 1000);

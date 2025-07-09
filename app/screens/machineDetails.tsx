@@ -17,7 +17,7 @@ import {
 import CustomDrawer from '../../components/CustomDrawer';
 import { useTheme } from '../../context/ThemeContext';
 
-const API_URL = 'https://indxoapp.onrender.com/machines';
+const API_URL = 'https://cncofflinemode.onrender.com/machines';
 const machineList = ['Machine 01', 'Machine 02', 'Machine 03'];
 
 export default function MachineDetails() {

@@ -4,8 +4,8 @@ import DateTimePicker from '@react-native-community/datetimepicker';
 import NetInfo from '@react-native-community/netinfo';
 import React, { useEffect, useRef, useState } from 'react';
 import {
-    Dimensions, Image, Linking, Platform, Pressable, RefreshControl,
-    SafeAreaView, ScrollView, StyleSheet, Text, ToastAndroid, TouchableOpacity, View,
+  Dimensions, Image, Linking, Platform, Pressable, RefreshControl,
+  SafeAreaView, ScrollView, StyleSheet, Text, ToastAndroid, TouchableOpacity, View,
 } from 'react-native';
 import { LineChart } from 'react-native-chart-kit';
 import Animated, { useAnimatedProps, useSharedValue, withTiming } from 'react-native-reanimated';
@@ -15,7 +15,7 @@ import { useTheme } from '../../context/ThemeContext';
 import { getMachineDataOffline, saveMachineDataOffline, setupMachineDB } from '../../utils/machineDB';
 
 const screenWidth = Dimensions.get('window').width;
-const BASE_URL = 'https://indxoapp.onrender.com';
+const BASE_URL = 'https://cncofflinemode.onrender.com';
 const API_URL = `${BASE_URL}/machines/latest`;
 const logo = require('../../assets/images/Logo.png');
 

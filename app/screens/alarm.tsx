@@ -9,24 +9,24 @@ import { useRouter } from 'expo-router';
 import * as ScreenOrientation from 'expo-screen-orientation';
 import React, { useEffect, useState } from 'react';
 import {
-    Animated,
-    Dimensions,
-    LayoutAnimation,
-    Platform,
-    Pressable,
-    RefreshControl,
-    SafeAreaView,
-    ScrollView,
-    StyleSheet,
-    Text,
-    TouchableOpacity,
-    UIManager,
-    View,
+  Animated,
+  Dimensions,
+  LayoutAnimation,
+  Platform,
+  Pressable,
+  RefreshControl,
+  SafeAreaView,
+  ScrollView,
+  StyleSheet,
+  Text,
+  TouchableOpacity,
+  UIManager,
+  View,
 } from 'react-native';
 import { BarChart, LineChart } from 'react-native-chart-kit';
 import CustomDrawer from '../../components/CustomDrawer';
 
-const API_URL = 'https://indxoapp.onrender.com/alarms';
+const API_URL = 'https://cncofflinemode.onrender.com/alarms';
 const machines = ['Machine 01', 'Machine 02', 'Machine 03'];
 const screenWidth = Dimensions.get('window').width;
 

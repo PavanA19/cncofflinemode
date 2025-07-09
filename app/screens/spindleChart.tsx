@@ -5,15 +5,15 @@ import NetInfo from '@react-native-community/netinfo';
 import * as ScreenOrientation from 'expo-screen-orientation';
 import React, { useEffect, useState } from 'react';
 import {
-    Dimensions, Platform, Pressable, RefreshControl,
-    SafeAreaView, ScrollView, StyleSheet, Text, ToastAndroid,
-    TouchableOpacity, View
+  Dimensions, Platform, Pressable, RefreshControl,
+  SafeAreaView, ScrollView, StyleSheet, Text, ToastAndroid,
+  TouchableOpacity, View
 } from 'react-native';
 import { LineChart } from 'react-native-chart-kit';
 import CustomDrawer from '../../components/CustomDrawer';
 
 const screenWidth = Dimensions.get('window').width;
-const API_URL = 'https://indxoapp.onrender.com/spindle-data';
+const API_URL = 'https://cncofflinemode.onrender.com/spindle-data';
 const machineList = ['Machine 01', 'Machine 02', 'Machine 03'];
 
 export default function SpindleChart() {

@@ -420,7 +420,7 @@ import RNHTMLtoPDF from 'react-native-html-to-pdf';
 import CustomDrawer from '../../components/CustomDrawer';
 
 const screenWidth = Dimensions.get('window').width;
-const API_URL = 'https://indxoapp.onrender.com/power-data';
+const API_URL = 'https://cncofflinemode.onrender.com/power-data';
 const machineList = ['Machine 01', 'Machine 02', 'Machine 03'];
 
 export default function PowerChart() {
